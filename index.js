@@ -99,13 +99,13 @@ m.sendMessage(args)
          .setThumbnail(message.author.avatarURL)
          .setDescription(`**Help|هيلب
 
-       b!obc | لأرسال برود كاست للكل
+       .!obc | لأرسال برود كاست للكل
 
-       b!bc  |  لأرسال برود كاست للأونلاين
+       .!bc  |  لأرسال برود كاست للأونلاين
 
-       b!invite | لدعوة البوت الي سيرفرك
+       .!invite | لدعوة البوت الي سيرفرك
 
-       b!support | سيرفر السبورت** `)
+       .!support | سيرفر السبورت** `)
    message.author.sendEmbed(embed)
    
    }
@@ -160,8 +160,8 @@ m.sendMessage(args)
 
 client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag} !`);
-          client.user.setActivity("b!help | b!invite",{type: 'WATCHING'});
+          client.user.setActivity(".!help | .!invite",{type: 'WATCHING'});
   
   });
 
-client.login(NTIwOTk4ODM1MzQzMDY1MTA5.Du2DUQ.lMK0eJvrQlxbUP2wxFIacyDktEo);
+client.login(SbR8GszXzOd4CijfeM6jZx9MgkEcUs3k);
